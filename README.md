@@ -22,24 +22,15 @@ Here're some of the project's best features:
 *   horario de las salas
 
 <h2>🧾 requirements:</h2>
-```
-Angular CLI	12.1.1
-```
-```
-Node	14.15.0
-```
-```
-Package Manager	npm 6.14.8
-```
-```
-Ionic	7.2.0
-```
+<p>Angular CLI:	12.1.1<p>
+<p>Node:	14.15.0<p>
+<p>Package Manager: npm 6.14.8<p>
+<p>Ionic:	7.2.0<p>
+  
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Descarga Del Proyecto</p>
-```
-Se debe clonar desde el repositorio o descargar como archivo zip
-```
+<p>Se debe clonar desde el repositorio o descargar como archivo zip<p>
 <p>2. Instalar Node Modules</p>
 
 ```
