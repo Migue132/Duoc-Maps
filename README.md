@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Totem Duoc Maps</h1>
 
-<p align="center"><img src="https://duocmaps.s3.amazonaws.com/www/assets/img/duoc.png" alt="project-image"></p>
+<p align="center"><img src="http://duocmaps.s3-website-us-east-1.amazonaws.com/assets/img/duoc.png" alt="project-image"></p>
 
 <p id="description">*brindar apoyo a las personas que requieran encontrar una sala o un punto de interés específico dentro de la institución permitiéndoles visualizar la ubicación exacta de los mismos.</p>
 
