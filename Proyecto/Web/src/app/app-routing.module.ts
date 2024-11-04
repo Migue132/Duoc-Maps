@@ -1,8 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { MainComponent } from 'src/pages/main/main.component';
-import { FoodPlaceComponent } from 'src/pages/food Place/foodPlace.component';
-import { BibliotecaComponent } from 'src/pages/Biblioteca/Biblioteca.component';
 import { SalaComponent } from 'src/pages/Sala/sala.component';
 
 import { CalendarComponent } from 'src/pages/calendar/calendar.component';
@@ -20,15 +18,6 @@ const routes: Routes = [
   },{
     path: 'calendario',
     component: CalendarComponent,
-  },
-  {
-    path: 'localDeComida',
-    component: FoodPlaceComponent,
-  },
-  {
-    path: 'Biblioteca',
-    component: BibliotecaComponent,
-
   },
   {
     path: 'Sala',

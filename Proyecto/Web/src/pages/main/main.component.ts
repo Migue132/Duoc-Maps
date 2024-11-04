@@ -17,10 +17,10 @@ export class MainComponent{
 
     option = {
 
-        slidesPerView: 1.5,
+        slidesPerView: 2,
         centeredSlides: true,
         loop:true,
-        spaceBetween:10
+        spaceBetween:0
     }
 
 

@@ -9,8 +9,6 @@ import { MainComponent } from 'src/pages/main/main.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FoodPlaceComponent } from 'src/pages/food Place/foodPlace.component';
-import { BibliotecaComponent } from 'src/pages/Biblioteca/Biblioteca.component';
 
 import { FormsModule } from '@angular/forms';
 
@@ -40,8 +38,6 @@ import { PuntoComponent } from 'src/pages/punto/punto.component';
   declarations: [AppComponent,
      MainComponent, 
      SalaComponent,
-     FoodPlaceComponent,
-     BibliotecaComponent,
      CalendarComponent,
      PreguntasComponent,
      EscuelasCarreraComponent,
