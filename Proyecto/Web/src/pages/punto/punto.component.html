@@ -1,0 +1,68 @@
+<ion-router-outlet id="main"></ion-router-outlet>
+  
+<ion-header>
+  <ion-toolbar color="orange-duoc">
+    <ion-title class="title-header">Punto Interés</ion-title>
+    <ion-buttons slot="start">
+      <ion-button href="/" class="boton-menu-grande">
+        <ion-icon name="home-outline" class="iconConf"></ion-icon>
+      </ion-button>
+      <ion-button href="punto-interes" class="boton-menu-grande">
+        <ion-icon name="arrow-back-outline" class="iconConf"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+  
+<ion-content>
+
+  <section class="PuntoDeInteres" *ngIf="puntosFiltrados.length === 0">
+
+    <h1 class="TextoPunto">
+      Punto de Interés coming soon...
+    </h1>
+
+  </section>
+
+  <section class="PuntoDeInteres" *ngFor="let punto of puntosFiltrados">
+
+    <img src="{{punto.imagenPunto}}" alt="Descripción de la imagen" class="ImagenPunto">
+
+    <h1 class="TextoPunto">
+      {{punto.nombrePunto}}
+    </h1>
+
+    <h2 class="TextoPunto">
+      Horario de Atención
+    </h2>
+
+    <h3 class="TextoPunto">
+      {{punto.horarioPunto}}
+    </h3>
+
+    <h4 class="TextoPunto">
+      {{punto.descripcionPunto}}
+    </h4>
+
+  </section>
+
+</ion-content>
+
+<ion-footer class="footer">
+  <div class="footer-content">
+      <div class="footer-info">
+          <img 
+              src="/assets/img/duoc.png" 
+              alt="Duoc Maps Logo"
+              class="img-footer-style">
+          <div style="display: flex; align-items: center;">
+              <div class="footer-list">
+                <p>Contáctanos</p>
+                <p>Seguro de accidentes +56 9 8739238</p>
+                <p>Mesa de ayuda +56 9 8739238</p>
+                <p>Mesa de servicios +56 9 8739238</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</ion-footer>
