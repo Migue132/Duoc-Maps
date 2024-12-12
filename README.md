@@ -42,7 +42,17 @@ npm install
 npm install @ionic/angular@5.9.4
 
 ```
+<p>2.2. Instalar feather icons</p>
 
+```
+npm install feather-icons
+ 
+```
+En el caso de no funcionar, se puede utilizar 
+```
+npm i--save-dev @types/feather-icons
+
+```
 <p>3. Ejecutar proyecto</p>
 
 ```
